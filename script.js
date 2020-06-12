@@ -21,3 +21,9 @@ function handleNumber(event) {
     input.innerHTML += event.target.innerHTML;
   }
 }
+
+clear.addEventListener("click", handleClear);
+
+function handleClear() {
+  input.innerHTML = "0";
+}

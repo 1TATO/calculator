@@ -27,3 +27,11 @@ clear.addEventListener("click", handleClear);
 function handleClear() {
   input.innerHTML = "0";
 }
+
+decimal.addEventListener("click", displayDecimal)
+
+function displayDecimal() {
+  if (!input.innerHTML.includes(".")) {
+    input.innerHTML += ".";
+  }
+}

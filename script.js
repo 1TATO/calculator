@@ -28,6 +28,21 @@ function handleClear() {
   input.innerHTML = "0";
 }
 
+backspace.addEventListener("click", back);
+
+function back() {
+  const value = input.innerHTML;
+
+  if (value.length === 1) {
+    input.innerHTML = "0";
+  }
+  else {
+    const newValue = value.substring(0, (value.length - 1))
+
+    input.innerHTML = newValue;
+  }
+}
+
 decimal.addEventListener("click", displayDecimal)
 
 function displayDecimal() {

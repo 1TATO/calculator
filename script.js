@@ -1,12 +1,16 @@
 const input = document.getElementById("input");
 const numbers = document.querySelectorAll(".number");
-const action = document.querySelectorAll(".action");
 const equal = document.getElementById("equal");
 const clear = document.getElementById("clear");
 const backspace = document.getElementById("backspace");
 
 const decimal = document.querySelector(".decimal")
 
+const plus = document.querySelector('.plus')
+const minus = document.querySelector('.minus')
+const times = document.querySelector('.times')
+const divider = document.querySelector('.divider')
+const percentage = document.querySelector('.percentage')
 
 for (const number of numbers) {
   number.addEventListener("click", handleNumber);
@@ -48,5 +52,45 @@ decimal.addEventListener("click", displayDecimal)
 function displayDecimal() {
   if (!input.innerHTML.includes(".")) {
     input.innerHTML += ".";
+  }
+}
+
+plus.addEventListener("click", plusFunction)
+
+function plusFunction() {
+  if (!input.innerHTML.includes("+")) {
+    input.innerHTML += "+";
+  }
+}
+
+minus.addEventListener("click", minusFunction)
+
+function minusFunction() {
+  if (!input.innerHTML.includes("-")) {
+    input.innerHTML += "-";
+  }
+}
+
+times.addEventListener("click", timesFunction)
+
+function timesFunction() {
+  if (!input.innerHTML.includes("*")) {
+    input.innerHTML += "*";
+  }
+}
+
+divider.addEventListener("click", dividerFunction)
+
+function dividerFunction() {
+  if (!input.innerHTML.includes('÷')) {
+    input.innerHTML += '÷';
+  }
+}
+
+percentage.addEventListener("click", percentageFunction)
+
+function percentageFunction() {
+  if (!input.innerHTML.includes("%")) {
+    input.innerHTML += "%";
   }
 }

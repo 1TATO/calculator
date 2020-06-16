@@ -94,3 +94,27 @@ function percentageFunction() {
     input.innerHTML += "%";
   }
 }
+
+equal.addEventListener("click", result)
+
+function result() {
+  const array = input.innerHTML.split('')
+
+  switch (array[1]) {
+    case "+":
+      input.innerHTML = (parseInt(array[0]) + parseInt(array[2]))
+      break;
+    case "-":
+      input.innerHTML = (parseInt(array[0]) - parseInt(array[2]))
+      break;
+    case "*":
+      input.innerHTML = (parseInt(array[0]) * parseInt(array[2]))
+      break;
+    case "÷":
+      input.innerHTML = (parseInt(array[0]) / parseInt(array[2]))
+      break;
+    case "%":
+      input.innerHTML = (parseInt(array[0]) / 100)
+      break;
+  }
+}

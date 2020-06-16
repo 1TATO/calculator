@@ -1,4 +1,4 @@
-# This is a personal project, building the Xiaomi calculator.
+# This is a personal project :muscle:. Building the Xiaomi calculator.
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/1TATO/calculator?color=%2304D361">

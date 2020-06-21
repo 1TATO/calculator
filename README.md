@@ -9,15 +9,15 @@
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 
-  <a href="https://github.com/1TATO/fundamentos-nodejs/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/1TATO/fundamentos-nodejs?style=social">
+  <a href="https://github.com/1TATO/calculator/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/1TATO/calculator?style=social">
   </a>
 </p>
 
-## Live demo no site [Codepen](https://codepen.io/1tato/pen/abdmLrK)
+## Live demo on [Github Pages](https://1tato.github.io/calculator/) / [Codepen](https://codepen.io/1tato/pen/abdmLrK)
 
 <p align="center">
-  <img alt="GoStack" src="https://github.com/1TATO/calculator/blob/master/.github/Calculator%20image.png" height="600px"  />
+  <img alt="Calculator" src="https://github.com/1TATO/calculator/blob/master/.github/Calculator%20image.png" height="600px"  />
 </p>
 
 
